@@ -1,0 +1,413 @@
+,support,itemsets,length
+0,0.3692017661358337,frozenset({'Pinot Noir'}),1
+1,0.2633824477848886,frozenset({'01'}),1
+2,0.25569281143027234,frozenset({'11'}),1
+3,0.11489805030510493,frozenset({'Oregon'}),1
+4,0.745497841940765,frozenset({'California'}),1
+5,0.24973954457508557,frozenset({'12'}),1
+6,0.2758346976236543,frozenset({'02'}),1
+7,0.2472094061616312,frozenset({'13'}),1
+8,0.21560748127201468,frozenset({'03'}),1
+9,0.24735823783301086,frozenset({'14'}),1
+10,0.2451753733194424,frozenset({'04'}),1
+11,0.02019149675050851,frozenset({'New York'}),1
+12,0.11941261100362158,frozenset({'Washington'}),1
+13,0.24269484546311454,frozenset({'Chardonnay'}),1
+14,0.24254601379173488,frozenset({'Cabernet Sauvignon'}),1
+15,0.14555737460931686,frozenset({'Red Blend'}),1
+16,0.2690876618544426,"frozenset({'California', 'Pinot Noir'})",2
+17,0.11504688197648459,"frozenset({'01', 'Pinot Noir'})",2
+18,0.21486332291511634,"frozenset({'California', '01'})",2
+19,0.09500421689735576,"frozenset({'California', '01', 'Pinot Noir'})",3
+20,0.1374212432405616,"frozenset({'01', '11'})",2
+21,0.11380661804832068,"frozenset({'11', 'Pinot Noir'})",2
+22,0.2153594284863819,"frozenset({'California', '11'})",2
+23,0.06781763159200278,"frozenset({'11', '02'})",2
+24,0.11757702038993897,"frozenset({'California', '01', '11'})",3
+25,0.06241008086520811,"frozenset({'01', '11', 'Pinot Noir'})",3
+26,0.08954705561343454,"frozenset({'California', '11', 'Pinot Noir'})",3
+27,0.05214069554001091,"frozenset({'California', '01', '11', 'Pinot Noir'})",4
+28,0.030560103189958825,"frozenset({'11', 'Pinot Noir', '02'})",3
+29,0.05199186386863124,"frozenset({'California', '11', '02'})",3
+30,0.019794612293496057,"frozenset({'California', '11', 'Pinot Noir', '02'})",4
+31,0.09728630252517735,"frozenset({'Oregon', 'Pinot Noir'})",2
+32,0.02614476360569529,"frozenset({'11', 'Oregon'})",2
+33,0.023813067420747135,"frozenset({'01', 'Oregon'})",2
+34,0.038051297316068856,"frozenset({'12', 'Oregon'})",2
+35,0.04494716475666022,"frozenset({'Oregon', '02'})",2
+36,0.031205040432604057,"frozenset({'13', 'Oregon'})",2
+37,0.028377238676390335,"frozenset({'03', 'Oregon'})",2
+38,0.019496948950736715,"frozenset({'14', 'Oregon'})",2
+39,0.017760579451307237,"frozenset({'04', 'Oregon'})",2
+40,0.01185692315324701,"frozenset({'Chardonnay', 'Oregon'})",2
+41,0.002083643399315374,"frozenset({'Oregon', 'Cabernet Sauvignon'})",2
+42,0.0036711812273651835,"frozenset({'Oregon', 'Red Blend'})",2
+43,0.024259562434886143,"frozenset({'11', 'Oregon', 'Pinot Noir'})",3
+44,0.010914322567842437,"frozenset({'11', 'Oregon', '02'})",3
+45,0.0021332539564419307,"frozenset({'03', '11', 'Oregon'})",3
+46,0.010765490896462768,"frozenset({'11', 'Oregon', 'Pinot Noir', '02'})",4
+47,0.0021332539564419307,"frozenset({'03', '11', 'Oregon', 'Pinot Noir'})",4
+48,0.019943443964875726,"frozenset({'01', 'Oregon', 'Pinot Noir'})",3
+49,0.011956144267500125,"frozenset({'01', '11', 'Oregon'})",3
+50,0.008334573597261497,"frozenset({'01', '12', 'Oregon'})",3
+51,0.0033239073274792877,"frozenset({'13', '01', 'Oregon'})",3
+52,0.010269385325197201,"frozenset({'01', '11', 'Oregon', 'Pinot Noir'})",4
+53,0.007491194126110036,"frozenset({'01', 'Oregon', 'Pinot Noir', '12'})",4
+54,0.0021828645135684873,"frozenset({'13', '01', 'Oregon', 'Pinot Noir'})",4
+55,0.03562038001686759,"frozenset({'Oregon', 'Pinot Noir', '12'})",3
+56,0.01855434836533214,"frozenset({'12', 'Oregon', '02'})",3
+57,0.01771096889418068,"frozenset({'12', 'Oregon', 'Pinot Noir', '02'})",4
+58,0.04003571960113112,"frozenset({'Pinot Noir', 'Oregon', '02'})",3
+59,0.025053331348911047,"frozenset({'13', 'Oregon', 'Pinot Noir'})",3
+60,0.010567048667956542,"frozenset({'13', 'Oregon', '02'})",3
+61,0.008334573597261497,"frozenset({'Pinot Noir', '13', 'Oregon', '02'})",4
+62,0.0243091729920127,"frozenset({'03', 'Oregon', 'Pinot Noir'})",3
+63,0.01131120702485489,"frozenset({'03', '13', 'Oregon'})",3
+64,0.008235352483008385,"frozenset({'03', '12', 'Oregon'})",3
+65,0.009773279753931637,"frozenset({'03', '13', 'Oregon', 'Pinot Noir'})",4
+66,0.00788807858312249,"frozenset({'03', 'Oregon', 'Pinot Noir', '12'})",4
+67,0.012353028724512577,"frozenset({'14', 'Oregon', 'Pinot Noir'})",3
+68,0.0066974252120851315,"frozenset({'03', '14', 'Oregon'})",3
+69,0.004911445155529097,"frozenset({'14', 'Oregon', '02'})",3
+70,0.004514560698516645,"frozenset({'03', '14', 'Oregon', 'Pinot Noir'})",4
+71,0.0032246862132261746,"frozenset({'Pinot Noir', '14', 'Oregon', '02'})",4
+72,0.01299796596715781,"frozenset({'04', 'Oregon', 'Pinot Noir'})",3
+73,0.007689636354616262,"frozenset({'14', '04', 'Oregon'})",3
+74,0.0029270228704668354,"frozenset({'04', '12', 'Oregon'})",3
+75,0.00600287741231334,"frozenset({'13', '04', 'Oregon'})",3
+76,0.0011410428139108002,"frozenset({'04', '11', 'Oregon'})",3
+77,0.004613781812769758,"frozenset({'14', '04', 'Oregon', 'Pinot Noir'})",4
+78,0.002530138413454383,"frozenset({'04', 'Oregon', 'Pinot Noir', '12'})",4
+79,0.004762613484149427,"frozenset({'13', '04', 'Oregon', 'Pinot Noir'})",4
+80,0.0010914322567842436,"frozenset({'04', '11', 'Oregon', 'Pinot Noir'})",4
+81,0.0032246862132261746,"frozenset({'01', 'Chardonnay', 'Oregon'})",3
+82,0.0012898744852904698,"frozenset({'Chardonnay', '11', 'Oregon'})",3
+83,0.0043161184700104185,"frozenset({'14', 'Chardonnay', 'Oregon'})",3
+84,0.0038696234558714096,"frozenset({'Chardonnay', 'Oregon', '02'})",3
+85,0.0044153395842635315,"frozenset({'13', 'Chardonnay', 'Oregon'})",3
+86,0.0018355906136825917,"frozenset({'Chardonnay', '12', 'Oregon'})",3
+87,0.0027781911990871658,"frozenset({'03', 'Chardonnay', 'Oregon'})",3
+88,0.001984422285062261,"frozenset({'04', 'Chardonnay', 'Oregon'})",3
+89,0.0011410428139108002,"frozenset({'13', '01', 'Chardonnay', 'Oregon'})",4
+90,0.0011906533710373567,"frozenset({'01', 'Chardonnay', '11', 'Oregon'})",4
+91,0.0012402639281639133,"frozenset({'14', 'Chardonnay', 'Oregon', '02'})",4
+92,0.0017859800565560352,"frozenset({'13', 'Chardonnay', 'Oregon', '02'})",4
+93,0.0013394850424170263,"frozenset({'03', '14', 'Chardonnay', 'Oregon'})",4
+94,0.0010914322567842436,"frozenset({'03', '13', 'Chardonnay', 'Oregon'})",4
+95,0.0015379272709232525,"frozenset({'14', '04', 'Chardonnay', 'Oregon'})",4
+96,0.0012402639281639133,"frozenset({'04', 'Oregon', 'Cabernet Sauvignon'})",3
+97,0.0021332539564419307,"frozenset({'14', 'Oregon', 'Red Blend'})",3
+98,0.0012898744852904698,"frozenset({'03', 'Oregon', 'Red Blend'})",3
+99,0.0010914322567842436,"frozenset({'13', 'Oregon', 'Red Blend'})",3
+100,0.0015379272709232525,"frozenset({'04', 'Oregon', 'Red Blend'})",3
+101,0.13702435878354913,"frozenset({'12', 'Pinot Noir'})",2
+102,0.07878156471697177,"frozenset({'01', '12'})",2
+103,0.19005804435183807,"frozenset({'California', '12'})",2
+104,0.08587587438606936,"frozenset({'12', '02'})",2
+105,0.10120553653817532,"frozenset({'California', '12', 'Pinot Noir'})",3
+106,0.04092870962940914,"frozenset({'01', '12', 'Pinot Noir'})",3
+107,0.062162028079575334,"frozenset({'California', '01', '12'})",3
+108,0.033437515503299105,"frozenset({'California', '01', '12', 'Pinot Noir'})",4
+109,0.04956094656942998,"frozenset({'12', 'Pinot Noir', '02'})",3
+110,0.05819318350945081,"frozenset({'California', '12', '02'})",3
+111,0.031849977675249296,"frozenset({'California', '12', 'Pinot Noir', '02'})",4
+112,0.11033387904946172,"frozenset({'Pinot Noir', '02'})",2
+113,0.186039589224587,"frozenset({'California', '02'})",2
+114,0.06975244331993849,"frozenset({'California', 'Pinot Noir', '02'})",3
+115,0.17839956342709729,"frozenset({'California', '13'})",2
+116,0.07932728084536389,"frozenset({'13', '02'})",2
+117,0.07833506970283276,"frozenset({'13', 'Pinot Noir'})",2
+118,0.04033338294389046,"frozenset({'13', '01'})",2
+119,0.05194225331150469,"frozenset({'13', 'California', '02'})",3
+120,0.05199186386863124,"frozenset({'California', '13', 'Pinot Noir'})",3
+121,0.022771245721089448,"frozenset({'13', 'Pinot Noir', '02'})",3
+122,0.014238229895321725,"frozenset({'13', 'California', 'Pinot Noir', '02'})",4
+123,0.010765490896462768,"frozenset({'13', '01', 'Pinot Noir'})",3
+124,0.030708934861338494,"frozenset({'California', '01', '13'})",3
+125,0.008483405268641166,"frozenset({'California', '01', 'Pinot Noir', '13'})",4
+126,0.15081609366473187,"frozenset({'California', '03'})",2
+127,0.07759091134593442,"frozenset({'03', 'Pinot Noir'})",2
+128,0.04896561988391129,"frozenset({'03', '12'})",2
+129,0.06419606092176415,"frozenset({'03', '13'})",2
+130,0.02976633427593392,"frozenset({'03', '11'})",2
+131,0.07267946619040531,"frozenset({'03', '14'})",2
+132,0.0558118767673761,"frozenset({'03', 'Chardonnay'})",2
+133,0.045492880885052336,"frozenset({'03', 'Cabernet Sauvignon'})",2
+134,0.05248796943989681,"frozenset({'California', 'Pinot Noir', '03'})",3
+135,0.037704023416182966,"frozenset({'California', '12', '03'})",3
+136,0.02862529146202312,"frozenset({'03', '12', 'Pinot Noir'})",3
+137,0.006498982983578905,"frozenset({'03', 'Chardonnay', '12'})",3
+138,0.020637991764647517,"frozenset({'California', '12', 'Pinot Noir', '03'})",4
+139,0.005903656298060227,"frozenset({'California', 'Chardonnay', '12', '03'})",4
+140,0.023961899092126804,"frozenset({'03', '13', 'Pinot Noir'})",3
+141,0.04430222751401498,"frozenset({'California', '13', '03'})",3
+142,0.013791734881182715,"frozenset({'California', '13', 'Pinot Noir', '03'})",4
+143,0.013196408195664037,"frozenset({'03', '11', 'Pinot Noir'})",3
+144,0.026839311405467085,"frozenset({'California', '11', '03'})",3
+145,0.0017859800565560352,"frozenset({'03', 'Chardonnay', '11'})",3
+146,0.01299796596715781,"frozenset({'03', '11', 'Cabernet Sauvignon'})",3
+147,0.011063154239222106,"frozenset({'California', '11', 'Pinot Noir', '03'})",4
+148,0.0017859800565560352,"frozenset({'California', 'Chardonnay', '11', '03'})",4
+149,0.012402639281639132,"frozenset({'California', '11', 'Cabernet Sauvignon', '03'})",4
+150,0.04197053132906683,"frozenset({'California', '14', '03'})",3
+151,0.011807312596120454,"frozenset({'03', '14', 'Pinot Noir'})",3
+152,0.006995088554844471,"frozenset({'California', '14', 'Pinot Noir', '03'})",4
+153,0.028526070347770004,"frozenset({'03', '14', 'Chardonnay'})",3
+154,0.04390534305700253,"frozenset({'California', 'Chardonnay', '03'})",3
+155,0.019000843379471152,"frozenset({'03', '13', 'Chardonnay'})",3
+156,0.01890162226521804,"frozenset({'California', '14', 'Chardonnay', '03'})",4
+157,0.01731408443716823,"frozenset({'California', '13', 'Chardonnay', '03'})",4
+158,0.03710869673066428,"frozenset({'California', 'Cabernet Sauvignon', '03'})",3
+159,0.012204197053132906,"frozenset({'03', '14', 'Cabernet Sauvignon'})",3
+160,0.010616659225083099,"frozenset({'03', '13', 'Cabernet Sauvignon'})",3
+161,0.009674058639678523,"frozenset({'03', '12', 'Cabernet Sauvignon'})",3
+162,0.00873145805427395,"frozenset({'California', '14', 'Cabernet Sauvignon', '03'})",4
+163,0.007689636354616262,"frozenset({'California', '13', 'Cabernet Sauvignon', '03'})",4
+164,0.00828496304013494,"frozenset({'California', '12', 'Cabernet Sauvignon', '03'})",4
+165,0.16168080567544774,"frozenset({'California', '14'})",2
+166,0.042813910800218284,"frozenset({'14', '02'})",2
+167,0.04003571960113112,"frozenset({'14', 'Pinot Noir'})",2
+168,0.0068462568834648015,"frozenset({'14', '01'})",2
+169,0.02391228853500025,"frozenset({'California', '14', '02'})",3
+170,0.02634320583420152,"frozenset({'California', '14', 'Pinot Noir'})",3
+171,0.00744158356898348,"frozenset({'14', 'Pinot Noir', '02'})",3
+172,0.0038696234558714096,"frozenset({'California', '14', 'Pinot Noir', '02'})",4
+173,0.0044153395842635315,"frozenset({'California', '01', '14'})",3
+174,0.19377883613632982,"frozenset({'California', '04'})",2
+175,0.12501860395892245,"frozenset({'14', '04'})",2
+176,0.06623009376395297,"frozenset({'04', 'Pinot Noir'})",2
+177,0.020687602321774072,"frozenset({'04', '11'})",2
+178,0.03611648558813316,"frozenset({'04', '12'})",2
+179,0.0633526814506127,"frozenset({'13', '04'})",2
+180,0.09138264622711713,"frozenset({'California', '04', '14'})",3
+181,0.05184303219725157,"frozenset({'California', '04', 'Pinot Noir'})",3
+182,0.019844222850622612,"frozenset({'14', '04', 'Pinot Noir'})",3
+183,0.014535893238081063,"frozenset({'California', '04', '14', 'Pinot Noir'})",4
+184,0.018951232822344594,"frozenset({'California', '04', '11'})",3
+185,0.007640025797489706,"frozenset({'04', '11', 'Pinot Noir'})",3
+186,0.006548593540705462,"frozenset({'California', '04', '11', 'Pinot Noir'})",4
+187,0.031998809346628965,"frozenset({'California', '04', '12'})",3
+188,0.01790941112268691,"frozenset({'04', '12', 'Pinot Noir'})",3
+189,0.015280051594979412,"frozenset({'California', '04', '12', 'Pinot Noir'})",4
+190,0.051446147740239125,"frozenset({'California', '04', '13'})",3
+191,0.020836433993153745,"frozenset({'13', '04', 'Pinot Noir'})",3
+192,0.015478493823485638,"frozenset({'California', '04', 'Pinot Noir', '13'})",4
+193,0.0025797489705809396,"frozenset({'13', 'New York'})",2
+194,0.0023813067420747134,"frozenset({'Pinot Noir', 'New York'})",2
+195,0.0014387061566701394,"frozenset({'New York', '02'})",2
+196,0.005357940169668105,"frozenset({'03', 'New York'})",2
+197,0.01661953663739644,"frozenset({'14', 'New York'})",2
+198,0.013246018752790594,"frozenset({'04', 'New York'})",2
+199,0.013642903209803046,"frozenset({'Chardonnay', 'New York'})",2
+200,0.0014387061566701394,"frozenset({'Cabernet Sauvignon', 'New York'})",2
+201,0.0027285806419606092,"frozenset({'New York', 'Red Blend'})",2
+202,0.0010914322567842436,"frozenset({'13', '04', 'New York'})",3
+203,0.0012402639281639133,"frozenset({'14', 'Pinot Noir', 'New York'})",3
+204,0.0011906533710373567,"frozenset({'04', 'Pinot Noir', 'New York'})",3
+205,0.004068065684377635,"frozenset({'03', '14', 'New York'})",3
+206,0.003522349555985514,"frozenset({'03', 'Chardonnay', 'New York'})",3
+207,0.003175075656099618,"frozenset({'03', '14', 'Chardonnay', 'New York'})",4
+208,0.011757702038993898,"frozenset({'14', '04', 'New York'})",3
+209,0.009475616411172297,"frozenset({'04', 'Chardonnay', 'New York'})",3
+210,0.009326784739792628,"frozenset({'14', '04', 'Chardonnay', 'New York'})",4
+211,0.012849134295778141,"frozenset({'14', 'Chardonnay', 'New York'})",3
+212,0.0018852011708091483,"frozenset({'14', 'New York', 'Red Blend'})",3
+213,0.0016867589423029221,"frozenset({'04', 'New York', 'Red Blend'})",3
+214,0.0011906533710373567,"frozenset({'14', '04', 'New York', 'Red Blend'})",4
+215,0.035025053331348914,"frozenset({'13', 'Washington'})",2
+216,0.020389938979014734,"frozenset({'04', 'Washington'})",2
+217,0.031056208761224387,"frozenset({'03', 'Washington'})",2
+218,0.04956094656942998,"frozenset({'14', 'Washington'})",2
+219,0.04340923748573697,"frozenset({'Washington', '02'})",2
+220,0.020985265664533414,"frozenset({'Washington', '12'})",2
+221,0.01914967505085082,"frozenset({'Chardonnay', 'Washington'})",2
+222,0.02455722577764548,"frozenset({'01', 'Washington'})",2
+223,0.013841345438309272,"frozenset({'Washington', '11'})",2
+224,0.03859701344446098,"frozenset({'Washington', 'Cabernet Sauvignon'})",2
+225,0.06121942749417076,"frozenset({'Washington', 'Red Blend'})",2
+226,0.016222652180383986,"frozenset({'13', 'Washington', '02'})",3
+227,0.01230341816738602,"frozenset({'13', 'Washington', 'Cabernet Sauvignon'})",3
+228,0.018852011708091483,"frozenset({'13', 'Washington', 'Red Blend'})",3
+229,0.008979510839906732,"frozenset({'13', 'Washington', '02', 'Red Blend'})",4
+230,0.0055067718410477745,"frozenset({'13', 'Washington', 'Cabernet Sauvignon', '02'})",4
+231,0.004812224041275984,"frozenset({'13', '04', 'Washington'})",3
+232,0.014188619338195168,"frozenset({'14', '04', 'Washington'})",3
+233,0.005308329612541549,"frozenset({'04', 'Washington', 'Cabernet Sauvignon'})",3
+234,0.011261596467728332,"frozenset({'04', 'Washington', 'Red Blend'})",3
+235,0.0018355906136825917,"frozenset({'13', '04', 'Washington', 'Cabernet Sauvignon'})",4
+236,0.0027285806419606092,"frozenset({'13', '04', 'Washington', 'Red Blend'})",4
+237,0.0029270228704668354,"frozenset({'14', '04', 'Washington', 'Cabernet Sauvignon'})",4
+238,0.007739246911742819,"frozenset({'14', '04', 'Washington', 'Red Blend'})",4
+239,0.007788857468869375,"frozenset({'03', '13', 'Washington'})",3
+240,0.019943443964875726,"frozenset({'03', '14', 'Washington'})",3
+241,0.007987299697375601,"frozenset({'03', 'Washington', 'Cabernet Sauvignon'})",3
+242,0.017214863322915115,"frozenset({'03', 'Washington', 'Red Blend'})",3
+243,0.0027285806419606092,"frozenset({'03', '13', 'Washington', 'Cabernet Sauvignon'})",4
+244,0.0044153395842635315,"frozenset({'03', '13', 'Washington', 'Red Blend'})",4
+245,0.0033735178846058442,"frozenset({'03', '14', 'Washington', 'Cabernet Sauvignon'})",4
+246,0.011360817581981446,"frozenset({'03', '14', 'Washington', 'Red Blend'})",4
+247,0.02549982636305006,"frozenset({'14', 'Washington', 'Red Blend'})",3
+248,0.013196408195664037,"frozenset({'14', 'Washington', '02'})",3
+249,0.022672024606836334,"frozenset({'Washington', '02', 'Red Blend'})",3
+250,0.006250930197946123,"frozenset({'14', 'Washington', '02', 'Red Blend'})",4
+251,0.009128342511286401,"frozenset({'Washington', '12', '02'})",3
+252,0.00828496304013494,"frozenset({'01', 'Washington', '12'})",3
+253,0.009177953068412958,"frozenset({'Washington', '12', 'Cabernet Sauvignon'})",3
+254,0.0025797489705809396,"frozenset({'03', 'Washington', '12'})",3
+255,0.010815101453589325,"frozenset({'Washington', '12', 'Red Blend'})",3
+256,0.003274296770352731,"frozenset({'Washington', '12', 'Cabernet Sauvignon', '02'})",4
+257,0.005209108498288436,"frozenset({'Washington', '12', '02', 'Red Blend'})",4
+258,0.004216897355757305,"frozenset({'01', 'Washington', '12', 'Cabernet Sauvignon'})",4
+259,0.00372079178449174,"frozenset({'01', 'Washington', '12', 'Red Blend'})",4
+260,0.0012898744852904698,"frozenset({'03', 'Washington', '12', 'Cabernet Sauvignon'})",4
+261,0.0012898744852904698,"frozenset({'03', 'Washington', '12', 'Red Blend'})",4
+262,0.0068462568834648015,"frozenset({'Chardonnay', 'Washington', '02'})",3
+263,0.003522349555985514,"frozenset({'13', 'Chardonnay', 'Washington'})",3
+264,0.003075854541846505,"frozenset({'01', 'Chardonnay', 'Washington'})",3
+265,0.014535893238081063,"frozenset({'14', 'Chardonnay', 'Washington'})",3
+266,0.005605992955300888,"frozenset({'03', 'Chardonnay', 'Washington'})",3
+267,0.003621570670238627,"frozenset({'04', 'Chardonnay', 'Washington'})",3
+268,0.004464950141390088,"frozenset({'14', 'Chardonnay', 'Washington', '02'})",4
+269,0.0017363694994294787,"frozenset({'13', 'Chardonnay', 'Washington', '02'})",4
+270,0.0012402639281639133,"frozenset({'13', '01', 'Chardonnay', 'Washington'})",4
+271,0.0014387061566701394,"frozenset({'14', '01', 'Chardonnay', 'Washington'})",4
+272,0.005109887384035323,"frozenset({'03', '14', 'Chardonnay', 'Washington'})",4
+273,0.003522349555985514,"frozenset({'14', '04', 'Chardonnay', 'Washington'})",4
+274,0.006201319640819566,"frozenset({'13', '01', 'Washington'})",3
+275,0.002232475070695044,"frozenset({'14', '01', 'Washington'})",3
+276,0.011410428139108001,"frozenset({'01', 'Washington', 'Cabernet Sauvignon'})",3
+277,0.010070943096690975,"frozenset({'01', 'Washington', 'Red Blend'})",3
+278,0.002232475070695044,"frozenset({'13', '01', 'Washington', 'Cabernet Sauvignon'})",4
+279,0.0027285806419606092,"frozenset({'13', '01', 'Washington', 'Red Blend'})",4
+280,0.007838468025995932,"frozenset({'01', 'Washington', '11'})",3
+281,0.007689636354616262,"frozenset({'Washington', '11', 'Cabernet Sauvignon'})",3
+282,0.00486183459840254,"frozenset({'Washington', '11', '02'})",3
+283,0.006052487969439897,"frozenset({'Washington', '11', 'Red Blend'})",3
+284,0.0043161184700104185,"frozenset({'01', 'Washington', '11', 'Cabernet Sauvignon'})",4
+285,0.002629359527707496,"frozenset({'Washington', '11', 'Cabernet Sauvignon', '02'})",4
+286,0.002232475070695044,"frozenset({'Washington', '11', '02', 'Red Blend'})",4
+287,0.0034727389988589573,"frozenset({'01', 'Washington', '11', 'Red Blend'})",4
+288,0.01389095599543583,"frozenset({'Washington', 'Cabernet Sauvignon', '02'})",3
+289,0.009426005854045742,"frozenset({'14', 'Washington', 'Cabernet Sauvignon'})",3
+290,0.0024805278563278265,"frozenset({'14', 'Washington', 'Cabernet Sauvignon', '02'})",4
+291,0.054472391724959074,"frozenset({'01', 'Chardonnay'})",2
+292,0.017661358337054126,"frozenset({'Chardonnay', '11'})",2
+293,0.19804534404921367,"frozenset({'California', 'Chardonnay'})",2
+294,0.08255196705859007,"frozenset({'13', 'Chardonnay'})",2
+295,0.06419606092176415,"frozenset({'Chardonnay', '02'})",2
+296,0.04450066974252121,"frozenset({'Chardonnay', '12'})",2
+297,0.09798085032494915,"frozenset({'14', 'Chardonnay'})",2
+298,0.06821451604901523,"frozenset({'04', 'Chardonnay'})",2
+299,0.04817185096988639,"frozenset({'California', '01', 'Chardonnay'})",3
+300,0.020935655107406855,"frozenset({'13', '01', 'Chardonnay'})",3
+301,0.003968844570124522,"frozenset({'14', '01', 'Chardonnay'})",3
+302,0.01855434836533214,"frozenset({'California', '01', 'Chardonnay', '13'})",4
+303,0.002331696184948157,"frozenset({'California', '01', 'Chardonnay', '14'})",4
+304,0.010517438110829985,"frozenset({'01', 'Chardonnay', '11'})",3
+305,0.01627226273751054,"frozenset({'California', 'Chardonnay', '11'})",3
+306,0.004613781812769758,"frozenset({'Chardonnay', '11', '02'})",3
+307,0.00927717418266607,"frozenset({'California', '01', 'Chardonnay', '11'})",4
+308,0.004514560698516645,"frozenset({'California', 'Chardonnay', '11', '02'})",4
+309,0.07411817234707546,"frozenset({'California', '13', 'Chardonnay'})",3
+310,0.052835243339782706,"frozenset({'California', 'Chardonnay', '02'})",3
+311,0.028129185890757552,"frozenset({'13', 'Chardonnay', '02'})",3
+312,0.01805824279406658,"frozenset({'14', 'Chardonnay', '02'})",3
+313,0.0243091729920127,"frozenset({'13', 'California', 'Chardonnay', '02'})",4
+314,0.01200575482462668,"frozenset({'California', '14', 'Chardonnay', '02'})",4
+315,0.013394850424170263,"frozenset({'Chardonnay', '12', '02'})",3
+316,0.041375204643548144,"frozenset({'California', 'Chardonnay', '12'})",3
+317,0.0055563823981743315,"frozenset({'04', 'Chardonnay', '12'})",3
+318,0.019050453936597708,"frozenset({'01', 'Chardonnay', '12'})",3
+319,0.01200575482462668,"frozenset({'California', 'Chardonnay', '12', '02'})",4
+320,0.0054571612839212184,"frozenset({'California', '04', 'Chardonnay', '12'})",4
+321,0.01800863223694002,"frozenset({'California', '01', 'Chardonnay', '12'})",4
+322,0.06627970432107952,"frozenset({'California', '14', 'Chardonnay'})",3
+323,0.053132906682542044,"frozenset({'California', '04', 'Chardonnay'})",3
+324,0.04742769261298804,"frozenset({'14', '04', 'Chardonnay'})",3
+325,0.014486282680954508,"frozenset({'13', '04', 'Chardonnay'})",3
+326,0.03304063104628665,"frozenset({'California', '04', 'Chardonnay', '14'})",4
+327,0.013940566552562384,"frozenset({'California', '04', 'Chardonnay', '13'})",4
+328,0.20042665079128838,"frozenset({'California', 'Cabernet Sauvignon'})",2
+329,0.10765490896462768,"frozenset({'11', 'Cabernet Sauvignon'})",2
+330,0.07605298407501117,"frozenset({'01', 'Cabernet Sauvignon'})",2
+331,0.06434489259314383,"frozenset({'Cabernet Sauvignon', '02'})",2
+332,0.05665525623852756,"frozenset({'04', 'Cabernet Sauvignon'})",2
+333,0.044103785285508755,"frozenset({'12', 'Cabernet Sauvignon'})",2
+334,0.04430222751401498,"frozenset({'13', 'Cabernet Sauvignon'})",2
+335,0.04648509202758347,"frozenset({'14', 'Cabernet Sauvignon'})",2
+336,0.09932033536736617,"frozenset({'California', '11', 'Cabernet Sauvignon'})",3
+337,0.06399761869325793,"frozenset({'California', '01', 'Cabernet Sauvignon'})",3
+338,0.0569529195812869,"frozenset({'01', '11', 'Cabernet Sauvignon'})",3
+339,0.05209108498288436,"frozenset({'California', '01', '11', 'Cabernet Sauvignon'})",4
+340,0.050106662697822095,"frozenset({'California', 'Cabernet Sauvignon', '02'})",3
+341,0.027533859205238875,"frozenset({'11', 'Cabernet Sauvignon', '02'})",3
+342,0.024805278563278264,"frozenset({'California', '11', 'Cabernet Sauvignon', '02'})",4
+343,0.04921367266954408,"frozenset({'California', '04', 'Cabernet Sauvignon'})",3
+344,0.01017016421094409,"frozenset({'04', '11', 'Cabernet Sauvignon'})",3
+345,0.01002133253956442,"frozenset({'California', '04', '11', 'Cabernet Sauvignon'})",4
+346,0.0345785583172099,"frozenset({'California', '12', 'Cabernet Sauvignon'})",3
+347,0.00788807858312249,"frozenset({'04', '12', 'Cabernet Sauvignon'})",3
+348,0.013990177109688941,"frozenset({'12', 'Cabernet Sauvignon', '02'})",3
+349,0.012551470953018803,"frozenset({'01', '12', 'Cabernet Sauvignon'})",3
+350,0.007391973011856923,"frozenset({'California', '04', '12', 'Cabernet Sauvignon'})",4
+351,0.010666269782209654,"frozenset({'California', '12', 'Cabernet Sauvignon', '02'})",4
+352,0.008235352483008385,"frozenset({'California', '01', '12', 'Cabernet Sauvignon'})",4
+353,0.030808155975591604,"frozenset({'California', '13', 'Cabernet Sauvignon'})",3
+354,0.015478493823485638,"frozenset({'13', 'Cabernet Sauvignon', '02'})",3
+355,0.013146797638537482,"frozenset({'13', '04', 'Cabernet Sauvignon'})",3
+356,0.005060276826908766,"frozenset({'13', '01', 'Cabernet Sauvignon'})",3
+357,0.009773279753931637,"frozenset({'13', 'California', 'Cabernet Sauvignon', '02'})",4
+358,0.010517438110829985,"frozenset({'California', '04', '13', 'Cabernet Sauvignon'})",4
+359,0.0028278017562137223,"frozenset({'13', '01', 'California', 'Cabernet Sauvignon'})",4
+360,0.0357196011311207,"frozenset({'California', '14', 'Cabernet Sauvignon'})",3
+361,0.007342362454730367,"frozenset({'14', 'Cabernet Sauvignon', '02'})",3
+362,0.0254502158059235,"frozenset({'14', '04', 'Cabernet Sauvignon'})",3
+363,0.001488316713796696,"frozenset({'14', '01', 'Cabernet Sauvignon'})",3
+364,0.00486183459840254,"frozenset({'California', '14', 'Cabernet Sauvignon', '02'})",4
+365,0.021282929007292752,"frozenset({'California', '04', '14', 'Cabernet Sauvignon'})",4
+366,0.07793818524582032,"frozenset({'California', 'Red Blend'})",2
+367,0.04202014188619338,"frozenset({'13', 'Red Blend'})",2
+368,0.036711812273651834,"frozenset({'03', 'Red Blend'})",2
+369,0.03695986505928461,"frozenset({'02', 'Red Blend'})",2
+370,0.024110730763506474,"frozenset({'12', 'Red Blend'})",2
+371,0.01656992608026988,"frozenset({'11', 'Red Blend'})",2
+372,0.05407550726794662,"frozenset({'04', 'Red Blend'})",2
+373,0.017810190008433795,"frozenset({'01', 'Red Blend'})",2
+374,0.06285657587934712,"frozenset({'14', 'Red Blend'})",2
+375,0.021481371235798977,"frozenset({'California', '13', 'Red Blend'})",3
+376,0.01488316713796696,"frozenset({'13', '04', 'Red Blend'})",3
+377,0.011509649253361115,"frozenset({'California', '04', '13', 'Red Blend'})",4
+378,0.01731408443716823,"frozenset({'California', 'Red Blend', '03'})",3
+379,0.010616659225083099,"frozenset({'03', '13', 'Red Blend'})",3
+380,0.02014188619338195,"frozenset({'03', '14', 'Red Blend'})",3
+381,0.007342362454730367,"frozenset({'California', '14', 'Red Blend', '03'})",4
+382,0.0055067718410477745,"frozenset({'California', '13', 'Red Blend', '03'})",4
+383,0.013345239867043708,"frozenset({'California', '02', 'Red Blend'})",3
+384,0.012948355410031255,"frozenset({'13', '02', 'Red Blend'})",3
+385,0.009971721982437863,"frozenset({'14', '02', 'Red Blend'})",3
+386,0.003621570670238627,"frozenset({'California', '13', '02', 'Red Blend'})",4
+387,0.003175075656099618,"frozenset({'California', '14', '02', 'Red Blend'})",4
+388,0.012898744852904698,"frozenset({'California', '12', 'Red Blend'})",3
+389,0.008929900282780175,"frozenset({'12', '02', 'Red Blend'})",3
+390,0.004167286798630748,"frozenset({'03', '12', 'Red Blend'})",3
+391,0.004762613484149427,"frozenset({'04', '12', 'Red Blend'})",3
+392,0.0036711812273651835,"frozenset({'California', '12', '02', 'Red Blend'})",4
+393,0.002877412313340279,"frozenset({'California', 'Red Blend', '12', '03'})",4
+394,0.0038696234558714096,"frozenset({'California', '04', '12', 'Red Blend'})",4
+395,0.010219774768070646,"frozenset({'California', '11', 'Red Blend'})",3
+396,0.005109887384035323,"frozenset({'11', '02', 'Red Blend'})",3
+397,0.007540804683236593,"frozenset({'01', '11', 'Red Blend'})",3
+398,0.0017859800565560352,"frozenset({'03', '11', 'Red Blend'})",3
+399,0.0021332539564419307,"frozenset({'04', '11', 'Red Blend'})",3
+400,0.002877412313340279,"frozenset({'California', '11', '02', 'Red Blend'})",4
+401,0.004068065684377635,"frozenset({'California', '01', '11', 'Red Blend'})",4
+402,0.001587537828049809,"frozenset({'California', 'Red Blend', '11', '03'})",4
+403,0.0016867589423029221,"frozenset({'California', '04', '11', 'Red Blend'})",4
+404,0.039589224586992114,"frozenset({'California', '04', 'Red Blend'})",3
+405,0.0322964726893883,"frozenset({'14', '04', 'Red Blend'})",3
+406,0.022523192935456664,"frozenset({'California', '04', '14', 'Red Blend'})",4
+407,0.007689636354616262,"frozenset({'California', '01', 'Red Blend'})",3
+408,0.006250930197946123,"frozenset({'01', '12', 'Red Blend'})",3
+409,0.0035719601131120704,"frozenset({'13', '01', 'Red Blend'})",3
+410,0.0024805278563278265,"frozenset({'California', '01', '12', 'Red Blend'})",4
+411,0.03333829438904599,"frozenset({'California', '14', 'Red Blend'})",3
